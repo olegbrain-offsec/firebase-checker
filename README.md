@@ -1,5 +1,8 @@
-# firebase-checker
+# Firebase leaked API-key checker
 The tool checks configuration of firebase database.
+
+### Disclaimer
+Usage of tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ### Requirements
 ```
@@ -31,7 +34,7 @@ python3 firebase_api_key_checker.py -apikey "Firebase leaked key" -project "proj
 | -passwd       | Custom password for signup | Password for registration, can be any                            |
 
 ### Docker 
-If you do not want to install tool dependencies, then you can use the Docker image for testing. During development, I encountered a problem using urllib3, and therefore the Docker solution allows me to test sites without installing conflicting versions.
+If you do not want to install tool dependencies, then you can use the Docker image for testing. During development, I encountered a problem using urllib3, and therefore the Docker solution allows to test sites without installing conflicting versions.
 Pull image to docker: 
 ```
 docker pull olegbrain/firebase-checker
