@@ -16,7 +16,7 @@ pip3 install tldextract==2.2.3
 pip3 install python-dateutil==2.8.2
 ```
 ### Arguments 
-Runnig python
+Running python
 ```
 python3 firebase_api_key_checker.py [args...]
 ```
